@@ -1,0 +1,6 @@
+{
+  "name": "Hồ Sơ Cá Nhân",
+  "description": "Ứng dụng tạo và chia sẻ hồ sơ CV cá nhân đa tài khoản, hỗ trợ đăng ký, đăng nhập và tải tài liệu đính kèm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

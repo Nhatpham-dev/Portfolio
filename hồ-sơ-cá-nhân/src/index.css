@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Custom premium scrollbar for horizontal scrollbars matching the user request (#D9D9D9 track inside #FFFAFA container) */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #FFFAFA;
+  border-radius: 6px;
+  border: 1px solid #E5E5E5;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 6px;
+  border: 2px solid #FFFAFA;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #B0B0B0;
+}
+
+/* Beautiful solid display font as requested, removing text stroke and shadow */
+.outlined-title {
+  color: #64B4E6;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
